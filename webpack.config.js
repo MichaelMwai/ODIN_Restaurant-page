@@ -10,6 +10,7 @@ module.exports = {
     clean: true,
   },
 
+  // Enable source maps for debugging
   devtool: "eval-source-map",
   devServer: {
     watchFiles: ["./src/template.html"],
