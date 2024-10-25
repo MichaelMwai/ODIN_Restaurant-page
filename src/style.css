@@ -1,3 +1,38 @@
 body {
   background-color: aquamarine;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.nav-bar img {
+  height: 50px;
+  width: 50px;
+}
+
+.nav-bar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-left {
+  display: flex;
+}
+
+.menu-items {
+  display: flex;
+  gap: 20px;
+}
+
+.menu-items img {
+  height: 300px;
+}
+
+.meal-card {
+  background-color: rgb(219, 228, 202);
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: 0 5px 20px rgb(0, 0, 0, 10);
+  text-align: justify;
 }
